@@ -59,6 +59,9 @@ header img {
 header h1 {
   margin: 0 auto;
   padding: 0 auto;
+  font-weight: 900;
+  font-family: 'Lato', sans-serif;
+  text-transform: capitalize;
 }
 .small {
   margin-top: 1em;
@@ -69,17 +72,24 @@ article {
   font-size: 18px;
   line-height: 1.3;
   margin: auto;
+  float: right;
 }
 article figure {
   width: 39%;
   margin: 0 0 1.25em 1.25em;
 }
 article figcaption {
-  font-size: inherit;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: 'Times New Roman', Times, serif;
 }
 .pagination {
-  margin-top: 2em;
-  margin-bottom: 2em;
+  /*margin-top: 2em;
+  margin-bottom: 2em;*/
+  margin: 2em auto;
+  display: flex;
+  justify-content: space-evenly;
+  border-width: thick;
   width: 96%;
 }
 a.button {
