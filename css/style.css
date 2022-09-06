@@ -105,11 +105,16 @@ a.button {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 80%;
+  border-color: darkred;
 }
 a.button:hover, a.button:active {
   border: 1px solid #444;
   text-decoration: none;
   color: #222;
+  transform: scale(0.9);
+  transition: transform 0.1s ease;
+  background-color: darkred;
+  color: white;
 }
 /*-- changes header and article width on small screens --*/
 @media screen and (max-width: 768px) {
@@ -117,7 +122,7 @@ a.button:hover, a.button:active {
   article {width: 96%;}
 }
 
-span .dropcap {
+.dropcap {
   float: left;
   font-size: calc(var(--firstPgFontSize) * 3);
   line-height: calc(var(--firstPgFontSize) * 2);
