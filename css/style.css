@@ -124,6 +124,6 @@ a.button:hover, a.button:active {
 
 .dropcap {
   float: left;
-  font-size: calc(var(--firstPgFontSize) * 3);
-  line-height: calc(var(--firstPgFontSize) * 2);
+  font-size: calc(18px * 3);
+  line-height: calc(18px * 2);
 }
